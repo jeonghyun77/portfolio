@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 앱 만들기 (날씨)</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style1.css">
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+
+    
+   
+
+</head>
+<body>
+    <div id="depth2">
+        <div class="top">
+            <p>수원시</p>
+            <div class="cicon"></div>
+            <div class="ctemp"></div>
+        </div>
+        <div class="mid">
+            <div class="cmaxtemp">최고기온: </div>
+            <div class="cmintemp">최저기온: </div> 
+        </div>
+        <div class="timer">
+            <p>시간대별 온도</p>
+            <div class="on">
+              <ul>
+                   <a href="#">12시</a>
+                   <a href="#">13시</a>
+                   <a href="#">14시</a>
+                   <a href="#">15시</a>
+                   <a href="#">16시</a>
+                 
+                   <div class="icon">
+                        <i class="fas fa-cloud"></i>
+                        <i class="fas fa-cloud"></i>
+                        <i class="fas fa-cloud"></i>
+                        <i class="fas fa-cloud"></i>
+                        <i class="fas fa-cloud"></i>
+                    
+                   </div>
+                   <li>
+                       <a href="#">28</a>
+                       <a href="#">28</a>
+                       <a href="#">27</a>
+                       <a href="#">27</a>
+                       <a href="#">26</a>
+                  
+                   </li>
+              </ul>
+            </div>
+        </div>
+        <div class="st">
+            <ul class="sw">
+                <p>미세먼지</p>
+                <ul>
+                    <i class="fas fa-laugh-squint"></i>
+                    <br>
+                    <a href="#">좋음</a>
+                </ul>
+            </ul>
+            <ul class="sm">
+                <p>자외선 지수</p>
+                <ul>
+                    <span><strong>8</strong><br> 높음</span>
+                    <a href="#"><img src="./image/Rectangle 16.png" alt="Rectangle"></a>
+                    <p>자외선 차단제가 필수인 날씨예요!</p>
+                </ul>
+            </ul>
+           
+        </div>
+        <div class="sunup">
+            <p>일출 일몰시간</p>
+            <a href="#"><img src="./image/Untitled-1.png" alt="sunup">오전 5:50</a>
+            <a href="#"><img src="./image/Untitled-2.png" alt="sundown">오후 7:20</a>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <button onclick="location.href='index1.html'"><img src="./image/house-solid.svg" alt=""></button >
+        <button onclick="location.href='index2.html'"><img src="./image/clock-solid.svg" alt=""></button >
+        <button onclick="location.href='index2.html'"><img src="./image/location-dot-solid.svg" alt=""></button >
+        <button onclick="location.href='index2.html'"><img src="./image/gear-solid.svg" alt=""></button >
+    </div>
+    
+</body>
+</html>
